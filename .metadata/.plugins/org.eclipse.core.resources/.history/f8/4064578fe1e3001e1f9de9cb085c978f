@@ -1,0 +1,5 @@
+package com.example.servicediscovery.service;
+
+public class UserServiceImpl {
+
+}

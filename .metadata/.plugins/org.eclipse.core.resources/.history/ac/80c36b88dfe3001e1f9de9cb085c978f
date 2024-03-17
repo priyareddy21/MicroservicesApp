@@ -1,0 +1,5 @@
+package com.example.servicediscovery.model;
+
+public class User {
+
+}
