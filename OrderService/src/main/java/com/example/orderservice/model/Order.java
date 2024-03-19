@@ -1,0 +1,44 @@
+package com.example.orderservice.model;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Data
+@NoArgsConstructor
+@Getter
+@Setter
+@Table(name="orders")
+public class Order {
+		@Id
+		@GeneratedValue(strategy=GenerationType.IDENTITY)
+	  	private Long id;
+	    private Date orderDate;
+	    private BigDecimal totalPrice;
+	    private Long userId; // Foreign key- UserID from users table
+		
+	    public Order(Date orderDate, BigDecimal totalPrice, Long userId) {
+			super();
+			this.orderDate = orderDate;
+			this.totalPrice = totalPrice;
+			this.userId = userId;
+		}
+
+		@Override
+		public String toString() {
+			return "Order [id=" + id + ", orderDate=" + orderDate + ", totalPrice=" + totalPrice + ", userId=" + userId
+					+ "]";
+		}
+	    
+
+}

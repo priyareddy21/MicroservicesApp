@@ -1,0 +1,5 @@
+spring.application.name=CloudGateway
+#server.port=8989
+# Expose Resilience4J metrics endpoint
+management.endpoints.web.exposure.include=resilience4j
+spring.main.allow-bean-definition-overriding=true

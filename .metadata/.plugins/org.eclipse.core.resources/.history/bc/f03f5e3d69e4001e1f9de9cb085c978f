@@ -1,0 +1,11 @@
+package com.example.orderservice.service;
+
+import com.example.orderservice.model.Order;
+
+public interface OrderService {
+
+	Order createUser(Order order);
+
+	Order getOrderDetails(Long id);
+
+}
