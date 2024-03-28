@@ -36,6 +36,7 @@ public class OrderController {
 		@GetMapping("/all")
 		public List<Order> getAllOrders(){
 			List<Order> orders=orderService.getAllOrders();
+			System.out.println("orders==="+orders);
 			return orders;
 		}
 }

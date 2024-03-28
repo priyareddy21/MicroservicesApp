@@ -31,11 +31,11 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-    <fullyQualifiedTypeName name="org.springframework.cloud.client.circuitbreaker.Customizer"/>
     <fullyQualifiedTypeName name="org.springframework.cloud.circuitbreaker.resilience4j.Resilience4JCircuitBreakerFactory"/>
     <fullyQualifiedTypeName name="io.github.resilience4j.timelimiter.TimeLimiterConfig"/>
     <fullyQualifiedTypeName name="io.github.resilience4j.circuitbreaker.CircuitBreakerConfig"/>
     <fullyQualifiedTypeName name="org.springframework.cloud.circuitbreaker.resilience4j.Resilience4JConfigBuilder"/>
     <fullyQualifiedTypeName name="ch.qos.logback.core.util.Duration"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.client.circuitbreaker.Customizer"/>
 </qualifiedTypeNameHistroy>
